@@ -108,7 +108,7 @@ const SERVICES = [
 ]
 
 // WhatsApp Direct Chat (number in international format, digits only)
-const WHATSAPP_NUMBER = '919845012345'
+const WHATSAPP_NUMBER = '919306425165'
 const WHATSAPP_MESSAGE = 'Hi MANE RIOT! I would like to book a slot.'
 const buildWhatsAppLink = (message) =>
   `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`
@@ -484,7 +484,7 @@ export default function App() {
               rel="noopener noreferrer"
               className="inline-block mt-1 text-xs text-mute hover:text-cream underline-offset-4 hover:underline transition-colors"
             >
-              +91 98450 12345
+              +91 93064 25165
             </a>
           </div>
           <div>
